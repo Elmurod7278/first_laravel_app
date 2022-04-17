@@ -10,7 +10,7 @@
 <body>
 <ul>
     @foreach($channels as $channel)
-        <li>{{$channel->name}}</li>
+        <li>{{$channel->name}}  </li>
     @endforeach
 </ul>
 </body>
